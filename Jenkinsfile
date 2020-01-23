@@ -12,6 +12,11 @@ pipeline {
                         echo 'Building Sample Maven Project'
                   }
             }
+			stage('Unit Test') {
+                  steps {
+                        echo 'Building Sample Tomcat Project'
+                  }
+            }
             stage('Deploy') {
                   steps {
                         echo "Deploying in Staging Area"
