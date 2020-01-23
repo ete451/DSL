@@ -14,7 +14,7 @@ pipeline {
             }
 			stage('Unit Test') {
                   steps {
-                        echo 'Building Sample Tomcat Project'
+                        echo 'Building Sample Tomcat 451 Project'
                   }
             }
             stage('Deploy') {
